@@ -16,7 +16,7 @@ local Workspace = game:GetService('Workspace')
 local LocalPlayer = Players.LocalPlayer
 
 -- WARNING: Paste your raw GitHub URL for Skins_Database.lua here!
-local skinDbUrl = "https://gist.githubusercontent.com/Clide01/4e7b2abdb007ab6714c5eae2a2c4c63a/raw/f9635dc5d41af3de167e32b785fee9f33704adaf/Skins_Database.lua"
+local skinDbUrl = "https://gist.githubusercontent.com/Clide01/832d96c911bc4b02fb484fe28424b31f/raw/efed7dd8608eb489ae2656649c1b3452174c3b2a/Animations_Database.lua"
 local SkinDB = loadstring(game:HttpGet(skinDbUrl))()
 
 getgenv().VisualSpooferState = {
